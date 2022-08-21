@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source sans Pro;
+}
+
+
+body{
+
+    height:300px;
+    background: #FFFFFF;
+}
+
+.greeting{
+    color: #242222;
+}
+
+
+.downellip{
+    position: absolute;
+    height: 363px;
+    width: 410px;
+    left: 850px;
+    bottom: 500px;
+    border-radius: 0px;
+}
+
+.upellip{
+    position: absolute;
+    height: 243px;
+    width: 363px;
+    left: 230px;
+    top: 760px;
+    border-radius: 0px;
+}
+
+.sec2 {
+    position: absolute;
+    height: 800px;
+    width: 680px;
+    left: 50%;
+    top: 70%;
+    border-radius: 10px;
+    background: #FFFFFF;
+    opacity: 70%;
+    Offset: 0px,
+    4px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 24px 7px #0000001A;
+}
+
+
+.sec2 h1 {
+    position: relative;
+    top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+
+form {
+    position: relative;
+    top: 5%;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+
+form .txt_field {
+    position: relative;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+
+.txt_field {
+    position: relative;
+    left: 10%;
+}
+
+
+::placeholder {
+    position: absolute;
+    margin: 8px 18px;
+}
+
+.username {
+    height: 40px;
+    width: 412px;
+    left: 500px;
+    top: 203px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.phone-number {
+    height: 40px;
+    width: 412px;
+    left: 515px;
+    top: 263px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.password {
+    height: 40px;
+    width: 412px;
+    left: 500px;
+    top: 323px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+
+.confirm-password {
+    height: 40px;
+    width: 412px;
+    left: 500px;
+    top: 233px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+
+.sign1 {
+
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.sign-up {
+    position: absolute;
+    height: 28px;
+    width: 226px;
+    left: 220px;
+    top:71%;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    }
+
+
+.sign-in-btn{
+position: absolute;
+height: 40px;
+width: 412px;
+left: 127px;
+top: 300px;
+border-radius: 10px;
+border: none;
+background: #232C7F;
+
+}
+
+ .span{
+    text-decoration: none;
+}
+
+
+.lines {
+    position: relative;
+    height: 45px;
+    left: 10px;
+}
+
+
+.lines::before,
+.lines::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #DFDFDF;
+    width: 50%;
+   top:73px;
+}
+
+.lines::after {
+    position: absolute;
+    left: 0;
+    width:37%;
+    left:8%;
+}
+
+.lines::before {
+    position:absolute;
+    width:34%;
+    right:15%;
+}
+
+.word-or{
+    position: absolute;
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    left: 0;
+    right:20px;
+    bottom: 0;
+    top: 67px;
+}
+
+
+.google{
+    position:absolute;
+    top:80%;
+    height: 25px;
+    width: 25px;
+    right: 63%;
+}
+
+
+.facebook{
+    position:absolute;
+    top:80%;
+    height: 25px;
+    width: 15px;
+    right:49%;
+}
+
+.linkedin{
+    position:absolute;
+    top:79.7%;
+    height: 25px;
+    width: 25px;
+    left: 63.5%;
+}
+
+
+.bg1{
+    position:absolute;
+    top:79%;
+    height: 50px;
+    width: 50px;
+    left:31.56%;
+}
+
+.bg2{
+    position: absolute;
+    top:79%;
+    height: 50px;
+    width: 50px;
+    left: 62%;
+}
+
+.bg3{
+    position: absolute;
+    top: 79%;
+    height: 50px;
+    width: 50px;
+    left: 46%;
+}
+
+
+/* .Ellips1{
+    position: relative;
+    left: 60%;
+}
+
+
+.Ellips2{
+    position:absolute;
+    top: 500px;
+    left: 15%;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {}
